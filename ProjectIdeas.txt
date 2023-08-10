@@ -1,0 +1,28 @@
+﻿RP
+* Pt: (x,y)/geodesy
+* Movement at RP(Station keep/halt)
+* Next movement(RP/Route/NA)
+* Time spent at RP before next movement(Seconds/NA)
+IMPLEMENTATION
+* alpha.bhv , specify points in waypt_rp
+* alpha.bhv, set endflag=behavior in waypt_rp
+* alpha.bhv, in behavior place condition = last behavior ended
+* alpha.bhv, duration parameter for behavior
+ROUTE
+
+
+* Pts: (x,y) : (x,y)
+
+
+IMPLEMENTATION
+* alpha.bhv, specify points in waypt_route
+SECURITY
+* Leadership/asset information
+* SSH Warthog/robot
+IMPLEMENTATION
+* MOOS application to create user login
+* Linux command line
+TROUBLESHOOTING
+* PACE
+IMPLEMENTATION
+* MOOS application that follows switch statement starting from primary action down to emergency. Errors/failure messages trigger the ladder.
